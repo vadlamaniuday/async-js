@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Async JS Basics</title>
+
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <style>
+    .list-group-item {
+      max-width: 50%;
+      word-wrap: break-word;
+    }
+  </style>
+  <body>
+    <div class="container-fluid">
+      <h1>Async JS Project</h1>
+      <button id="start" class="btn btn-primary">Start</button>
+      <button id="stop" class="btn btn-primary" disabled>Stop</button>
+      <button id="reset" class="btn btn-primary" disabled>Reset</button>
+
+      <h3>Items</h3>
+      <ul id="counter" class="list-group"></ul>
+    </div>
+  </body>
+  <script src="items.js"></script>
+  <!-- BOOTSTRAP -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"
+  ></script>
+</html>
