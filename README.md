@@ -5,7 +5,7 @@
 	 - Used HTML 5 ,BootStrap and JavaScript to achieve it's desired functionality.
 
 2. Counter :
-	- This is a basic JavaScript application that allows you to start, stop, and reset a counter. The counter displays the number of seconds elapsed since you started it.
+	- This is a basic JavaScript application that allows you to start, stop, and reset a counter.
 	- Used HTML 5 ,BootStrap and JavaScript to achieve it's desired functionality.
 
 3. Weather App : 
